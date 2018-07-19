@@ -1,3 +1,13 @@
+--一张表
+DROP TABLE IF EXISTS `region`;
+CREATE TABLE IF NOT EXISTS `region` (
+  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `pid` int(11) UNSIGNED NOT NULL  DEFAULT 0 COMMENT '父id',
+  `name` varchar(60) NOT NULL DEFAULT '' COMMENT '名称',
+  PRIMARY KEY (`id`),
+  KEY `pid` (`pid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='省市区总表';
+
 INSERT INTO region VALUES (1,0, '北京市');
 INSERT INTO region VALUES (2,1, '市辖区');
 INSERT INTO region VALUES (3,2, '东城区');
