@@ -7,6 +7,7 @@
 有问题请提issue，持续更新中.........
 
 ###目录结构描述
+<pre>
 ├── json                        // json文件目录
 │   ├── area.json               // 区
 │   ├── city.json               // 市
@@ -20,3 +21,4 @@
 │   └── region.sql              // 包含所有省市区数据,只需1张表
 ├── LICENSE                     // MIT
 └── Readme.md                   // help
+</pre>
