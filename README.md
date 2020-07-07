@@ -1,8 +1,8 @@
-2018最新省市区sql/json 文件
+2020最新省市区sql/json 文件
 
-数据来源于[国家统计局](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/)
+数据来源于[国家统计局](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/){:target="_blank"}
 
-国家2018.6.20 统计的2017年省市区数据,东莞市终于有数据了!!!
+更新到国家2020-02-25 统计的2019年省市区数据,东莞市终于有数据了!!!
 
 有问题请提issue，持续更新中.........
 
