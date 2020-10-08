@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS `city` (
   `city_code` mediumint(6) UNSIGNED NOT NULL DEFAULT 0 COMMENT '城市代码',
   `province_code` mediumint(6) UNSIGNED NOT NULL DEFAULT 0 COMMENT '省份代码',
   PRIMARY KEY (`id`),
-  KEY `province_code` (`province_code`),
+  KEY `province_code` (`province_code`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='城市表';
 
 DROP TABLE IF EXISTS `area`;
@@ -24,6 +24,6 @@ CREATE TABLE IF NOT EXISTS `area` (
   `area_code` mediumint(6) UNSIGNED NOT NULL DEFAULT 0 COMMENT '区域代码',
   `city_code` mediumint(6) UNSIGNED NOT NULL DEFAULT 0 COMMENT '城市代码',
   PRIMARY KEY (`id`),
-  KEY `city_code` (`city_code`),
+  KEY `city_code` (`city_code`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='区域表';
 
