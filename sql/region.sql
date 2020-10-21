@@ -1,3 +1,15 @@
+-- 一张表，包含省市区信息
+-- p_code=0 即所有省信息
+
+DROP TABLE IF EXISTS `region`;
+CREATE TABLE IF NOT EXISTS `region` (
+  `code` int(10) UNSIGNED NOT NULL DEFAULT 0 COMMENT '地区代码',
+  `p_code` mediumint(6) UNSIGNED NOT NULL DEFAULT 0 COMMENT '上级地区代码',
+  `name` varchar(60) NOT NULL DEFAULT '' COMMENT '区域名称',
+  PRIMARY KEY (`code`),
+  KEY `p_code` (`p_code`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COMMENT='地区表';
+
 INSERT INTO region VALUES (32,0, '北京市');
 INSERT INTO region VALUES (33,32, '市辖区');
 INSERT INTO region VALUES (34,33, '东城区');
