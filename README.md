@@ -32,6 +32,10 @@
 </pre>
 
 ```mysql
-#导入sql时报错时可以尝试以下方式导入
+# 导入sql时报错时可以尝试以下方式导入
 mysql -uroot -p --default-character-set=utf8 dbname < /path/community.sql
 ```
+
+---
+![阿里云](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-16bf85f1-2181-4870-ac73-b170c68d178c/0721e41d-ea66-4ab8-9ab2-52a48e9231a2.png "阿里云")
+![腾讯云](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-16bf85f1-2181-4870-ac73-b170c68d178c/4077f381-c7e1-4219-87c9-e8902e789fbd.png "腾讯云")
