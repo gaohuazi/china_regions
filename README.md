@@ -1,10 +1,14 @@
 2021最新省市区sql/json 文件
 
-**最近更新（2021年6月19日）**：
+**最近更新（2021年6月19日）**：`master分支`增加了香港、澳门、台湾相关数据~
 
-`master分支`数据源已更新为[腾讯位置服务（行政区划）API](https://lbs.qq.com/service/webService/webServiceGuide/webServiceDistrict)，增加了香港、澳门、台湾相关数据~
 
-[联动效果演示](https://gaohuazi.github.io/china_regions/)   [国内备用演示](https://static-16bf85f1-2181-4870-ac73-b170c68d178c.bspapp.com/)
+
+> [联动效果演示](https://gaohuazi.github.io/china_regions/)  
+>
+> [国内备用演示](https://static-16bf85f1-2181-4870-ac73-b170c68d178c.bspapp.com/)
+>
+> [淘宝领券浏览器插件（广告）](https://static-f7d1f66d-b388-4ba9-82f5-1d8ffc10e3ab.bspapp.com/)
 
 
 
