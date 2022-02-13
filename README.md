@@ -28,8 +28,11 @@
 │   ├── street.sql              // 街道
 │   └── init.sql                // mysql表结构文件, 需要4张表
 ├── spider                      // 爬虫源文件目录
+│   ├── go                      // golang版爬虫
+│   │   ├── main.go             // demo入口文件
+│   │   └── core                // 核心类库文件
 │   └── php                     // php版爬虫
-│       ├── index.php           // 入口文件
+│       ├── index.php           // demo入口文件
 │       └── Region.class.php    // 核心类库文件
 ├── docs                        // github联动效果演示文件，忽略
 ├── LICENSE                     // MIT
@@ -40,8 +43,13 @@
 ### 如何抓取最新数据
 
 ##### 1.使用PHP版爬虫
-clone项目后 直接执行 `php spider/php/index.php` 
+clone项目后 直接执行 `php spider/php/index.php`  耗时约180s
 
+##### 2.使用golang版爬虫
+clone项目后 直接执行 `GO111MODULE=off go run spider/go/main.go` 耗时约30s
+
+---
+执行后会在当前目录生成最新json/sql文件
 
 ### 其他说明
 
