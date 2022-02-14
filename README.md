@@ -1,11 +1,14 @@
 #### 2022全网最完整、最新、最全、中国省市区街道sql/json 文件
 ---
 
-**最近更新（2022年2月8日）**：`master分支` 增加街道数据（4级联动），增加了香港、澳门、台湾、钓鱼岛相关数据~
-
-
+### 效果演示
 > [联动效果演示](https://gaohuazi.github.io/china_regions/)  
 > [国内备用演示](https://static-16bf85f1-2181-4870-ac73-b170c68d178c.bspapp.com/)
+
+### 更新记录
+- **2022-02-14**：增加github action,每日自动抓取最新数据，[快速下载最新json/sql](https://github.com/gaohuazi/china_regions/actions/workflows/go.yml)
+- **2022-02-13**：增加golang版爬虫源码
+- **2022-02-08**：增加街道数据（4级联动），增加了香港、澳门、台湾、钓鱼岛相关数据~
 
 
 ### 分支说明
