@@ -2,10 +2,10 @@ package province
 
 import (
 	"encoding/json"
-	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
+	"fmt"
 
 	"../util"
 )
@@ -52,7 +52,7 @@ func (this *Province) Run() {
 
 		id, _ := strconv.Atoi(provinceSlice[1:2][0])
 		name := provinceSlice[0:1][0]
-
+		
 		jsonstr := fmt.Sprintf(`{"Id":%d,"Name":"%s"}`, id, name)
 		json.Unmarshal([]byte(jsonstr), &item)
 		this.AppendData(item)

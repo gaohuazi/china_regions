@@ -13,5 +13,5 @@ func main() {
 	defer util.CostTime()()
 	spider := spider.NewSpider()
 	spider.Run()
-	fmt.Println("采集完成...")
+	fmt.Printf("\n\n采集完成，已下载到%s下的json与sql目录\n", spider.OutPath)
 }

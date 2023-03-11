@@ -3,6 +3,7 @@ package spider
 import (
 	"bytes"
 	"fmt"
+	"os"
 	"path/filepath"
 
 	"../city"
@@ -53,6 +54,7 @@ func (this *Spider) initData() {
 }
 
 func (this *Spider) toJson() {
+	os.Mkdir(filepath.Join(this.OutPath, "./json/"), os.ModePerm)
 	util.WriteFile(filepath.Join(this.OutPath, "./json/province.json"), this.Province.Json)
 	util.WriteFile(filepath.Join(this.OutPath, "./json/city.json"), this.City.Json)
 	util.WriteFile(filepath.Join(this.OutPath, "./json/area.json"), this.Area.Json)
@@ -60,6 +62,7 @@ func (this *Spider) toJson() {
 }
 
 func (this *Spider) toSql() {
+	os.Mkdir(filepath.Join(this.OutPath, "./sql/"), os.ModePerm)
 	util.WriteFile(filepath.Join(this.OutPath, "./sql/init.sql"), this.getSqlDesc())
 	util.WriteFile(filepath.Join(this.OutPath, "./sql/province.sql"), this.getProvinceSql())
 	util.WriteFile(filepath.Join(this.OutPath, "./sql/city.sql"), this.getRegionSql("city"))
