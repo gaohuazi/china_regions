@@ -5,7 +5,9 @@
 ### 效果演示
 
 > [联动效果演示](https://gaohuazi.github.io/china_regions/)  
-> [国内备用演示](https://static-16bf85f1-2181-4870-ac73-b170c68d178c.bspapp.com/)
+> [国内备用演示](http://static.i920.wang/china_regions/index.html)
+
+![image](http://static.i920.wang/china_regions/city.gif)
 
 ### 更新记录
 
