@@ -1,4 +1,4 @@
-## 2023 全网最完整、最新、最全、中国省市区街道 sql/json 文件
+## 2024 全网最完整、最新、最全、中国省市区街道 sql/json 文件
 
 ---
 
@@ -10,7 +10,7 @@
 ![image](http://static.i920.wang/china_regions/city.gif)
 
 ### 更新记录
-
+-   **2024-11-05**：`爬虫程序自动更新`
 -   **2022-03-10**：增加 github action,每日自动抓取最新数据，[快速下载最新 json/sql](https://github.com/gaohuazi/china_regions/actions/workflows/go.yml)![快速下载步骤，需科学上网](docs/GIF%202022-05-31%20%E6%98%9F%E6%9C%9F%E4%BA%8C%207-58-34.gif)
 -   **2022-02-13**：增加 golang 版爬虫源码
 -   **2022-02-08**：增加 PHP 版爬虫源码
