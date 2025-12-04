@@ -24,7 +24,7 @@ jobs:
       - name: upload json
         uses: actions/upload-artifact@v5.0.0
         with:
-          name: "省市区街道json"
+          name: "china_regions_json"
           path: json/
           retention-days: 5
           overwrite: true
@@ -32,8 +32,7 @@ jobs:
       - name: upload sql
         uses: actions/upload-artifact@v5.0.0
         with:
-          name: "省市区街道sql"
+          name: "china_regions_sql"
           path: sql/
           retention-days: 5
           overwrite: true
-
