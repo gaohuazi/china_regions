@@ -22,15 +22,18 @@ jobs:
         run: GO111MODULE=off go run spider/go/main.go
 
       - name: upload json
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v5.0.0
         with:
           name: "省市区街道json"
           path: json/
           retention-days: 5
+          overwrite: true
 
       - name: upload sql
-        uses: actions/upload-artifact@v4.4.0
+        uses: actions/upload-artifact@v5.0.0
         with:
           name: "省市区街道sql"
           path: sql/
           retention-days: 5
+          overwrite: true
+
