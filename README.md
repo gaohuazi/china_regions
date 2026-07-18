@@ -68,6 +68,4 @@ clone 项目后 直接执行 `GO111MODULE=off go run spider/go/main.go` 耗时�
 mysql -uroot -p --default-character-set=utf8 dbname < /path/community.sql
 ```
 
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
 有问题请提 issue，持续更新中.........
